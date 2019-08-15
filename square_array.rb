@@ -4,4 +4,4 @@ def square_array(numbers)
  numbers.collect do |n|
    new << (n**2)
  end
- 
+ end
