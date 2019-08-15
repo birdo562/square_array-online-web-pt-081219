@@ -1,7 +1,7 @@
 
 def square_array(numbers)
   new=[]
- numbers.collect do |n|
+ numbers.collect(1) do |n|
    new << (n**2)
  end
  end
